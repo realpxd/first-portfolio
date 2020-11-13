@@ -1,0 +1,160 @@
+body {background-color:#000015;
+      color:white;
+}
+#Menu {background-color:pink;
+       color:black;
+       position:fixed;
+       font-size:15pt;
+       height:25px;
+       width:100%;
+       padding:8px;
+       margin:5px;
+       margin:0px;
+       overflow:hidden;
+       cursor:pointer;
+       font-family:Arial;
+       box-shadow:0px 5px 8px grey;
+}
+#mySidenav {background-color:#001D1E;
+          position:fixed;
+          height: 100%;
+          width: 0px;
+          border-radius:5px 5px 10px 10px;
+          overflow:hidden;
+          transition: 1s;
+          top: 0;
+          left: 0;
+          z-index:1;
+          box-shadow:7px 0px 15px black;
+}
+.closebtn {position: absolute;
+           color:white;
+           top: 0;
+           right: 10px;
+           font-size: 36px;
+           margin-left: 50px;
+           z-index:2;
+           width:40px;
+           height:40px;
+           text-align:center;
+           transition:1s;
+}
+.closebtn:hover {color:blue;
+}
+.a,#h ,#t {text-decoration:none;
+   padding:20px;
+   padding-left:40px;
+   display:block;
+   cursor:crosshair;
+   font-family:Serif;
+   font-size:12pt;
+   color:#818181;
+   transition: 0.5s;
+}
+#t {border:;}
+.a:hover ,#h:hover, #t:hover{color:#f1f1f1; 
+}
+#Menu:hover {background-color:pink;}
+@media screen and (max-height: 450px) {
+  .mySidenav {padding-top: 15px;}
+  .mySidenav a {font-size: 18px;}
+}
+#sni {display:block;
+      border-radius:7px;
+      border-bottom:1px solid pink;
+      padding:7px;
+}
+#si {margin:0px 0px 80px 140px;
+     padding:40px 4px 0px 4px;
+     font-size:10pt;
+     font-family:Helvetica;
+     text-align:right;
+     z-index:2;
+}
+#su {z-index:3;}
+a {text-decoration:none; 
+   color:red;
+}
+#mn {padding:0px 47px 0px 27px
+}
+
+#cert {height:150px;
+       width:200px;
+       border:dotted red;
+       border-radius:5px;
+       padding:7px;
+       margins:9px;
+       box-shadow:1px 1px 2px grey;
+       
+}
+#cert:focus {filter:brigthness(40%);
+             height:300px;
+             width:350px;
+
+}
+#cer {text-align:left;
+      text-shadow:1px 1px 4px grey;
+      font-size:9pt:
+}
+#wok {text-align:center;
+      color:red;
+      border:;
+      background-color:#1f1224;
+      border-radius:15px;
+      padding:7px;
+      margin:10px;
+}
+#certif {background-color:#050417;
+         margin:10px;
+         border-radius:10px;
+         padding:10px;
+         text-align:center;
+         display:block;
+}
+#them {display:block;
+       text-align:center;
+}
+#dark {display:inline-block;
+       border:solid grey;
+       height:40px;
+       width:90px;
+       padding:15px;
+       border-radius:5px;
+       color:white;
+       background-color:black;
+       text-align:center;
+       font-weight:bold;
+}
+#light {display:inline-block;
+        border:solid pink;
+        height:40px;
+        width:90px;
+        padding:15px;
+        border-radius:5px;
+        color:black;
+        background-color:white;
+        text-align:center;
+        font-weight:bold;
+        align:center;
+}
+#contac {color:pink;
+         text-decoration:underline;
+}
+#wel {text-align:center;
+      font-size:19pt;
+      font-family: "Lato", sans-serif; 
+      margin-left:120px;
+      border-bottom:1px solid lightblue;
+      color:lightblue;
+}
+#insta {margin-left:30px;}
+#tele {padding:5px;}
+#name {font-size:14pt;
+       font-family:"Lato", sans-serif;
+       text-align:center;}
+#bio {font-size:15pt;
+      }
+#abo {background-image:/black_man.jpg;
+      }
+     
+#myPic {display:block:}

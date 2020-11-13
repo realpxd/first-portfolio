@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--DON'T COPY ME OR YOU ARE A MORON-->
+<title>SIGN IN TO YOUR ACCOUNT</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+     <style type="text/css">
+     body  {background-color:white; 
+            font-family:courier new;}
+    .box  {width: 300px;
+	       padding: 40px;
+	       position: absolute;
+	       top: 50%;
+	       border-radius:7px;
+	       left: 50%;
+	       transform: translate(-50%,-50%);
+	       background: #D1D0D0;
+	       text-align: center;
+	       box-shadow:6px 6px 5px #241f20;
+	       z-index:1;}
+     #in   {color: #37393D;
+            text-align:right; 
+            background:none; 
+            border-bottom:1px solid teal; 
+            display:flex;
+            padding:px; 
+            margin: px; 
+            font-size:10pt;
+            position:;}
+     #name {border:0;
+            background: none;
+            display: block;
+            margin: 8px auto;
+            text-align: center;
+            border-bottom: 2px solid #FF454C;
+            padding: 8px 8px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;}
+     #pass {border:0;
+            background: none;
+            display: block;
+            margin: 8px auto;
+            text-align: center;
+            border-bottom: 2px solid #FF454C;
+            padding: 8px 8px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;}
+     #sign {border:0;
+            width:100px;
+            height:20px;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border-bottom: 2px solid #2ecc71;
+            border-left: 2px solid #2ecc71;
+            border-right: 2px solid #2ecc71;
+            background-color:lightred;
+            padding: 1px 1px;
+            outline: none;
+            color:red;
+            border-radius: 100px;
+            transition: 0.25s;
+            cursor: pointer;}
+     #link {color:White; 
+             border:none; 
+            text-decoration:none; 
+            font-family:}
+#forgot {color:#37393D; 
+        font-family:courier; 
+        border-bottom:1px solid darkred;
+        border-left:1px solid darkblue;
+        border-right:1px solid darkblue;
+        border-top:1px solid darkblue;
+        box-shadow:3px -3px 3px #241f20;
+        border-radius:5px; 
+        text-decoration:none; 
+        display:flex; 
+        text-align:center;
+        background-color: #D1D0D0; 
+        padding:4px;
+        margin:111px;
+        position:absolute; width:170px; height:19px;
+        z-index:0;}
+      #name:focus,#pass:focus{
+             width: 280px;
+             border-color: #2ecc71;
+     }
+     </style>
+</head>
+       <meta content='width=device-width, initial-scale=1' name='viewport'/>
+<body>
+        <form class="box" autocomplete="off">
+        <font id="in"> SIGN IN TO YOUR ACCOUNT </font> <br>
+        <input id="name" placeholder="email or username" type="text" required /> <br>
+        <input id="pass" placeholder="password" type="password" required /> <br>
+        <input id="sign"  type="submit" value="submit" onclick="sign" ><a href="/404.html" id="link"></a><br>
+        </form>
+      <section><nav>
+        <a id="forgot" href="/404.htnl"> Forgot Password ?</a> <br>
+      </nav></section>
+      <footer><font color="violet" size="4pt">contact me on:</font><br><img src="/icon.png" width="20px" height="20px"><a href="https://www.instagram.com/spidey_naman/"><font color="grey">--instagram </font></a></footer>
+<script> 
+$(function() 
+{
+    $("footer").ready(function()
+    {
+        $("form , #forgot").hide();
+    });
+    $("footer").ready(function() 
+    {
+        $("form , #forgot").slideToggle(2700);
+    });
+    });
+ </script>
+ <script>
+ $(function() {
+ var a = true;
+ $("#pass").click(function() {
+ $("#sign").animate({
+ height, width: ((a) ? '+': '-') + '=50px'}, 900);
+ a = !a;
+ });
+ });
+ </script>
+</body>
+</html>

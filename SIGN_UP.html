@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head> 
+<meta property="og:image" content="https://html2.freevar.com/preview.jpg" width="196" height="196" />
+              <title> CREATE YOUR ACCOUNT </title>
+<!--DONT COPY PLOX..  IT REALLY TAKES A LOT OF TIME TO CREATE A WEBPAGE-->
+<meta charset="utf-8">
+          <style>
+div {color:black;border-radius: 14px; border:2px dotted gree; background-color:#E5E5E4; margins: 30px; padding: 3px; text-align: centre; font-family:Courier New;}
+input {margin:10px 10px 10px 10px;border:none; border-bottom: 1px solid gold; outline:none; text-align:center; border-right:1px solid gold; border-radius:5px; padding:4px;background:none; color:; font-family:Times;}
+#ln { border:1px dotted grey; border:dotted grey;}
+#w:hover {width:185px;}
+input:hover {}
+body {background-color:white; color: white;} 
+#extra {  transform: rotate(270deg); filter:rotate(260deg);}
+          </style>
+          <script src='http://use.edgefonts.net/nosifer.js'></script>
+          <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+       			   <link href="https://fonts.googleapis.com/css?family=Chicle|Yatra+One" rel="stylesheet" type="text/css" >
+</head>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<body>
+     <font face="Times" id="ac" size="4.7" color="#2D2E2D" style="text-align:center;"><p cursor="crosshair" style="border-bottom: 1px solid teal; border-top: 1px solid teal;padding:20px; " > <strong>.  . . . . .  .  .  .  .  .  .<br> . . . . . .START CREATING ACCOUNT. . . . . . . <br> . . . <br> <font id="extra"> _________________ </font>  </strong></p></font>
+                   <br>
+  <div id="cont">   <form type="post" onsubmit="confirmInput()" action="https://html2.freevar.com/SIGN-IN.html" autocomplete="off">
+    <ul>
+       <li> <label for="country"> COUNTRY :- </label>
+            <input id="w" placeholder="Country" type="country" list="countries" required />
+            <datalist id="countries">
+            <option value="INDIA">
+            <option value="AMERICA">
+            <option value="RUSSIA">
+            <option value="OTHERS">
+            </datalist>
+     </li>         <br>
+     <li>  <label for="state"> STATE :- </label>
+           <input id="w" placeholder="State" type="state" list="states" onclick="err()" >
+           <datalist id="states">
+           <option value="NO STATES SET YET">
+           </datalist>
+                                </li> </ul>
+                   <br>
+     [ <input placeholder="Radio" name="side" type="radio" style="padding: 3px;"> RURAL ]
+     [ <input placeholder="Radio" name="side" type="radio" style="padding: 3px;"> URBAN ]
+                   <br>
+           <p id="ln" style="border:1px solid grey; margin:px;"> </p>
+                   <br>
+                   <br>
+   <label for="dob"> DATE OF BIRTH:-</label>
+   <ul>              
+     <li>  <input id="k" placeholder="Birth Date" type="date" name="dob" required />  </li>
+   </ul>          
+                   <br>
+     [ <input placeholder="gender" name="gender" type="radio" > MALE ]
+     [ <input placeholder="gender" name="gender" type="radio" > FEMALE ]
+     [ <input placeholder="gender" name="gender" type="radio" onclick="Function()"> OTHERS ]
+                   <br>
+            <p id="ln" style="border:1px solid grey; margin:px;"> </p>
+                   <br>
+                   <br>
+      <label for="email"> YOUR E-MAIL ADDRESS :- </label>
+      <input id="w" placeholder="ENTER EMAIL HERE" type="email" name="email" required />
+                   <br>
+      <label for="tel"> PHONE NO. :- </label>
+      <input id="w" placeholder="ENTRE 10 DIGIT PHONE NO." type="tel" required-id="number" required />
+                   <br>
+      <label for="text"> VALID USERNAME :-</label>
+      <input id="w" placeholder="GET A USERNAME" id="fname" type="text" required /><ul id="mylist"></ul>
+
+      <label for="password"> PASSWORD :- </label>
+      <input id="w" placeholder="PASSWORD" type="password" required /> <br>
+      <label for="password"> CONFIRM PASSWORD :- </label>
+      <input placeholder="CONFIRM PASSWORD" type="password" required />
+      <input placeholder="submit" value="submit" type="submit" id="add"  style="background-color:lightblue; color:black;">
+   </form><br></div><br>
+<footer>
+<font color="violet" size="4pt">contact me on:</font><br><img src="/icon.png" width="20px" height="20px"><a href="https://www.instagram.com/spidey_naman/"><font color="white">--instagram </font></a>
+</footer>
+
+<script> 
+    alert("Hey! \n Welcome  :p \n\n")
+</script>
+<script>
+       function Function()
+       {alert("This is gone something wrong!");}
+       
+       function err()
+       {alert("In development");}
+</script>
+<script>
+$(function() 
+{
+    $("p").ready(function()
+    {
+        $("div").hide();
+    });
+    $("footer").click(function() 
+    {
+        $("div").fadeToggle(5000);
+    });
+    });
+
+$(function() 
+{
+    $("body").ready(function()
+    {
+        $("#cont , #ac").hide();
+    });
+    
+
+    $("p").ready(function() 
+    {
+        $("#cont , #ac").fadeToggle(1000);
+    });
+});
+</script>
+<script>
+function confirmInput() {
+  fname = document.form[0].fname.value;
+  alert("Hello " + fname + "! \n\n You will now be redirected to SIGN-IN Page");
+}
+</script>
+</body>
+</html>
